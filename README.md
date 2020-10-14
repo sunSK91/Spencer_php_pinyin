@@ -10,13 +10,13 @@
 单个汉字，一句话，中英文混合都完美支持
 
 # 例子utf-8版
-```
+```php
 include_once 'Pinyin.php';    
 echo Pinyin::getPinyin("早上好");//获取拼音  
 echo Pinyin::getShortPinyin("早上好");//获取拼音缩写  
 ```
 # 例子gbk版
-```
+```php
 include_once 'Pinyin.php';
 echo Pinyin::getPinyin("早上好",'gb2312');//获取拼音
 echo Pinyin::getShortPinyin("早上好",'gb2312');//获取拼音缩写
